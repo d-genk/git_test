@@ -2,9 +2,11 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"say_hello": "Untitled.ipynb"}
+index = {"add_stuff": "add_stuff.ipynb",
+         "say_hello": "hello_world.ipynb"}
 
-modules = ["hello.py"]
+modules = ["add.py",
+           "hello.py"]
 
 doc_url = "https://d-genk.github.io/retrofit/"
 
